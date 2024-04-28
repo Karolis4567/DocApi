@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PetApi</name>
+    </assembly>
+    <members>
+        <member name="T:PetApi.Controllers.PetController">
+            <summary>
+            Controller for pet objects
+            </summary>
+        </member>
+        <member name="M:PetApi.Controllers.PetController.GetPets">
+            <summary>
+            Retrieve all objects
+            </summary>
+            <remarks>Retreive information about all registred pets</remarks>
+            <response code="200">Success</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetController.GetPet(System.Int32[])">
+            <summary>
+            Retrieve one object
+            </summary>
+            <remarks>Retreive information about one pet</remarks>
+            <response code="200">Success</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetController.CreatePet(PetApi.Dtos.PetDto)">
+            <summary>
+            Create object
+            </summary>
+            <remarks>Create registrated pet</remarks>
+            <response code="201">Success</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetController.UpdatePet(PetApi.Dtos.PetDto)">
+            <summary>
+            Update object
+            </summary>
+            <remarks>Update registrated pet information</remarks>
+            <response code="201">Success</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetController.DeletePet(System.Int32[])">
+            <summary>
+            Delete object
+            </summary>
+            <remarks>Delete pet information from registry</remarks>
+            <response code="201">Deleted</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetDiscountController.GetPetDiscount(System.Int32)">
+            <summary>
+            Retrieve one object
+            </summary>
+            <remarks>Get discount information related to pet</remarks>
+            <response code="200">Success</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetDiscountController.AddPetDiscount(PetApi.Dtos.PetDiscountDto)">
+            <summary>
+            Adds object
+            </summary>
+            <remarks>Adds pet dicount information</remarks>
+            <response code="201">Success</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetDiscountController.UpdatePetDiscount(System.Int32)">
+            <summary>
+            Updates object
+            </summary>
+            <remarks>Updates pet dicount information</remarks>
+            <response code="201">Success</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetDiscountController.DeletePetDiscount(System.Int32)">
+            <summary>
+            Deletes object
+            </summary>
+            <remarks>Deletes pet dicount information</remarks>
+            <response code="201">Success</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetPriceController.GetPetPrice(System.Int32)">
+            <summary>
+            Gets one object
+            </summary>
+            <remarks>Gets pet discount information</remarks>
+            <response code="200">Success</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetPriceController.CreatePetPrice(PetApi.Dtos.PetPriceDto)">
+            <summary>
+            Creates object
+            </summary>
+            <remarks>Creates pet price object</remarks>
+            <response code="201">Success</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetPriceController.UpdatePetPrice(PetApi.Dtos.PetPriceDto)">
+            <summary>
+            Updates object
+            </summary>
+            <remarks>Updates pet price object</remarks>
+            <response code="201">Success</response>
+            <response code="400">Incorrect parameters</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetTypeController.GetTypes">
+            <summary>
+            Gets array of objects
+            </summary>
+            <remarks>Gets all pet types</remarks>
+            <response code="200">Success</response>
+            <response code="500">Problems with database</response>
+        </member>
+        <member name="M:PetApi.Controllers.PetTypeController.PetTypesGroups">
+            <summary>
+            Gets array of objects
+            </summary>
+            <remarks>Gets all pet type groups</remarks>
+            <response code="200">Success</response>
+            <response code="500">Problems with database</response>
+        </member>
+    </members>
+</doc>
