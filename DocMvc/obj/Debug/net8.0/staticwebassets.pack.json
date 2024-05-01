@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\DocMvc.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\karol\\source\\repos\\DocApi\\DocMvc\\wwwroot\\css\\sidebars.css",
+      "PackagePath": "staticwebassets\\css\\sidebars.css"
+    },
+    {
       "Id": "C:\\Users\\karol\\source\\repos\\DocApi\\DocMvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

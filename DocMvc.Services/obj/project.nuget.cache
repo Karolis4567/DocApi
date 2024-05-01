@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7lXKyd2q8H1f/o/lNwxFApKKF2YLMnY8rTAqHme4SBbMP7Kcp4uP4+jD+NSQRcech2mJmiP4YD67Yes/zlyVVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\karol\\source\\repos\\DocApi\\DocMvc.Services\\DocMvc.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karol\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

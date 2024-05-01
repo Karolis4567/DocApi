@@ -1,0 +1,13 @@
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\bin\Debug\net8.0\DocMvc.Services.deps.json
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\bin\Debug\net8.0\DocMvc.Services.dll
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\bin\Debug\net8.0\DocMvc.Services.pdb
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\obj\Debug\net8.0\DocMvc.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\obj\Debug\net8.0\DocMvc.Services.AssemblyInfoInputs.cache
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\obj\Debug\net8.0\DocMvc.Services.AssemblyInfo.cs
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\obj\Debug\net8.0\DocMvc.Services.csproj.CoreCompileInputs.cache
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\obj\Debug\net8.0\DocMvc.Services.sourcelink.json
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\obj\Debug\net8.0\DocMvc.Services.dll
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\obj\Debug\net8.0\refint\DocMvc.Services.dll
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\obj\Debug\net8.0\DocMvc.Services.pdb
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\obj\Debug\net8.0\ref\DocMvc.Services.dll
+C:\Users\karol\source\repos\DocApi\DocMvc.Services\obj\Debug\net8.0\DocMvc.Services.csproj.AssemblyReference.cache

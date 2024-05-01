@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yiPN1hokV2ysQCjNrMuWvJbsaPavX1bH+t6F1oInswk=",
+  "Hash": "Zw471fKuMneb5oyC8rAu+2nVikSBV85CMhlCxcliKLI=",
   "Source": "DocMvc",
   "BasePath": "_content/DocMvc",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\karol\\source\\repos\\DocApi\\DocMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DocMvc.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\karol\\source\\repos\\DocApi\\DocMvc\\wwwroot\\css\\sidebars.css",
+      "SourceId": "DocMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\karol\\source\\repos\\DocApi\\DocMvc\\wwwroot\\",
+      "BasePath": "_content/DocMvc",
+      "RelativePath": "css/sidebars.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sidebars.css"
     },
     {
       "Identity": "C:\\Users\\karol\\source\\repos\\DocApi\\DocMvc\\wwwroot\\css\\site.css",

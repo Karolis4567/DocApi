@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DocMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6d7286d1e2fe7cd7ed3ad5906324953618c7ecd")]
 [assembly: System.Reflection.AssemblyProductAttribute("DocMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DocMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

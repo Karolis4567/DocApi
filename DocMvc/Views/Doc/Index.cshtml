@@ -1,11 +1,30 @@
-﻿<p>
-    Link to Doc method
-</p>
+﻿@{
+    ViewBag.Title = "Parse JSON";
+}
 
+<br />
+<br />
 
-@Html.ActionLink(
-    "Link to Dock"
-    , "Doc"
-    , "Doc"
-    , new { link = "https://localhost:7252/swagger/v1/swagger.json" }
-    , null)
+<form asp-controller="Doc" asp-action="Doc" method="post" id="form-for-json">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <label class="mb-1" for="txtAreaForJson">
+                    Please paste swagger JSON
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <textarea id="json" name="json" class="form-control mb-1" rows="10">
+            </textarea>
+        <div>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-success mt-1" type="submit">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+ 

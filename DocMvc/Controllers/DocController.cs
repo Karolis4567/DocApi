@@ -1,5 +1,5 @@
 ﻿using DocMvc.Models;
-using DocMvc.Services;
+using DocMvc.Services.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DocMvc.Controllers
@@ -12,16 +12,19 @@ namespace DocMvc.Controllers
             this._service = docService;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
 
-        public async Task<IActionResult> Doc(string link)
+        [HttpPost]
+        public async Task<IActionResult> Doc([FromForm] DocParametersModel param)
         {
-            var model = await this._service.GetDoc(link);
+            var swJsonData = await this._service.GetSwJsonData(param.json);
+            var model = new DocModel(swJsonData);
             return View(model);
-        }
+        }       
 
     }
 }
